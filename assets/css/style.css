@@ -435,8 +435,37 @@ Responsive styling @ 640px
     }
 
     .about-me {
-    width: 100%;
+    width: 500px;
     clear: both;
+    }
+
+
+    .about-me--container:nth-child(even) {
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-me--container:nth-child(even) img{
+        width: 500px;
+        height: 500px;
+    } 
+
+    .about-me--container:nth-child(odd) {
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .about-me--container:nth-child(odd) img {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .banner {
+        width: 500px;
     }
 
     .connect-with-me {
